@@ -1,0 +1,4 @@
+<launch>
+    <node name="opencv" pkg="robot-pos-simulation" type="opencv" output="screen"/>
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+</launch>
